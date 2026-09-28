@@ -4,6 +4,14 @@ An educational, reproducible workflow for structuring and descriptively explorin
 
 > **Scope:** This repository contains no trained prediction model, no prediction-performance claim, and no causal biological conclusion. Its analyses are exploratory descriptions of the included source data.
 
+## Highlights
+
+- Built a reproducible siRNA data analysis workflow
+- Integrated an experimentally supported siRNA efficacy dataset
+- Designed a source-aware schema for biological data harmonization
+- Performed sequence-level and experimental-context exploratory analysis
+- Prepared a foundation for future siRNA activity prediction modeling
+
 ## Project overview
 
 Public siRNA datasets are heterogeneous. Measurements can differ by target gene, strand representation, chemical modification, cell system, assay, concentration, treatment duration, and activity endpoint. This project provides a source-aware framework that preserves this context rather than treating every reported activity value as directly comparable.
