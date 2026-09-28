@@ -1,0 +1,40 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local Python environments and build artifacts
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Editor and operating-system metadata
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
+~$*
+
+# Local configuration (commit a redacted .env.example only, if needed)
+.env
+.env.*
+!.env.example
+
+# Derived and source data retained locally for reproducibility.
+# Keep the small toy CSV and source metadata under version control.
+data/processed/*.csv
+data/raw/siRNAEfficacyDB/*.xlsx
+data/raw/siRNAEfficacyDB/*.fasta

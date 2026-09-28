@@ -1,0 +1,45 @@
+original_field,mapped_field,notes
+__dataset_metadata__,source_dataset,Constant: siRNAEfficacyDB.
+ID,source_record_id,Copied exactly; no local ID is generated.
+__dataset_metadata__,provenance_url,Constant official Figshare dataset URL.
+__entire_source_row__,source_raw_record,Every original field is serialized without dropping columns.
+__source_file__,source_raw_file,Constant: siRNA_data.xlsx.
+Gene,target_gene,Copied exactly as reported; no alias resolution.
+Sense_19mer,sense_sequence,Copied exactly; no complementary strand is derived.
+Antisense_21mer,antisense_sequence,Copied exactly; no complementary strand is derived.
+not_in_siRNAEfficacyDB,chemical_modification,Set to literal not_reported; no chemistry is inferred.
+not_in_siRNAEfficacyDB,chemical_modification_reported,Set to literal not_reported.
+not_in_siRNAEfficacyDB,modification_position,Set to literal not_reported.
+%Inhibition,activity_value,Copied without rescaling.
+%Inhibition,activity_unit,Set to % because the source field name explicitly includes the percent symbol.
+%Inhibition,activity_type,Set to exact source field label %Inhibition.
+Technology,assay_method,Copied as explicit source-reported assay text.
+Technology,assay_method_reported,Copied verbatim as source-reported assay text.
+Cell,cell_line,Copied as reported; values are not split or reclassified.
+not_in_siRNAEfficacyDB,cell_type,Set to literal not_reported.
+Concentration,concentration,Extract only exact number-plus-unit source values; otherwise not_reported.
+Concentration,concentration_unit,Extract only exact number-plus-unit source values; otherwise not_reported.
+Hours,treatment_time,Extract only exact number-plus-unit source values; otherwise not_reported.
+Hours,treatment_unit,Extract only exact number-plus-unit source values; otherwise not_reported.
+PMID,reference,Copied exactly as a source reference identifier.
+Accession_number,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+Authors,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+Gene_ID,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+5.end dG,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+3' end dG,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+Sec.dG,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+Hsieh,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+Amarzguioui,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+GC stretch,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+Whole dG,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+Katoh,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+Takasaki,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+Reynolds,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+Ui-Tei,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+%GC,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+i-score,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+Title,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+Year,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+Abstract,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+Journal,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.
+Pubdate,not_reported,No direct unified field; retained losslessly in source_raw_record and the immutable raw workbook.

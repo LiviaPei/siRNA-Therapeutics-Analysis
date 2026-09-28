@@ -1,0 +1,9 @@
+sirna_id,target_gene,sense_sequence,antisense_sequence,chemical_modification,activity_value,activity_type,cell_line,assay_method,concentration,treatment_time,reference
+TOY_001,EXAMPLE1,AUGCAUGCAUGCAUGCAUGCA,UGCAUGCAUGCAUGCAUGCAU,unmodified (toy),42.0,toy relative knockdown (%),HeLa (toy),RT-qPCR (toy),10 nM,24 h,TOY DATA ONLY - illustrative record 1
+TOY_002,EXAMPLE1,GCAUAGCUAGCAUAGCUAGCU,AGCUAGCAUAGCUAGCAUAGC,2'-OMe annotation (toy),55.0,toy relative knockdown (%),HeLa (toy),RT-qPCR (toy),10 nM,24 h,TOY DATA ONLY - illustrative record 2
+TOY_003,EXAMPLE2,AAUUGGCCAAUUGGCCAAUUG,CAAUUGGCCAAUUGGCCAAUU,unmodified (toy),31.0,toy relative knockdown (%),HepG2 (toy),luciferase reporter (toy),5 nM,48 h,TOY DATA ONLY - illustrative record 3
+TOY_004,EXAMPLE2,CGUAACGUAACGUAACGUAAC,GUUACGUUACGUUACGUUACGU,phosphorothioate annotation (toy),67.0,toy relative knockdown (%),HepG2 (toy),luciferase reporter (toy),5 nM,48 h,TOY DATA ONLY - illustrative record 4
+TOY_005,EXAMPLE3,UUAAUCGGAUUAAUCGGAUUA,UAAUCCGAUUAAUCCGAUUAA,unmodified (toy),48.0,toy relative knockdown (%),A549 (toy),RT-qPCR (toy),20 nM,24 h,TOY DATA ONLY - illustrative record 5
+TOY_006,EXAMPLE3,GGCAUUAGCGGCAUUAGCGGC,GCCGCUAAUGCCGCUAAUGCC,2'-F annotation (toy),73.0,toy relative knockdown (%),A549 (toy),western blot (toy),20 nM,72 h,TOY DATA ONLY - illustrative record 6
+TOY_007,EXAMPLE4,ACGUACGUACGUACGUACGUA,UACGUACGUACGUACGUACGU,unmodified (toy),39.0,toy relative knockdown (%),HEK293 (toy),RT-qPCR (toy),1 nM,24 h,TOY DATA ONLY - illustrative record 7
+TOY_008,EXAMPLE4,CCAAUGGCCCAAUGGCCCAAU,AUUGGGCCAUUGGGCCAUUGG,2'-OMe annotation (toy),61.0,toy relative knockdown (%),HEK293 (toy),western blot (toy),1 nM,72 h,TOY DATA ONLY - illustrative record 8

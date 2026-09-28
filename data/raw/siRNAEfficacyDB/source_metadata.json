@@ -1,0 +1,17 @@
+{
+  "dataset_name": "Experimentally Supported siRNA Efficacy Dataset",
+  "source_dataset": "siRNAEfficacyDB",
+  "dataset_url": "https://figshare.com/articles/dataset/_b_Experimentally_Supported_siRNA_Efficacy_Dataset_b_/25908841",
+  "data_download_url": "https://ndownloader.figshare.com/files/46578250",
+  "fasta_download_url": "https://ndownloader.figshare.com/files/46578241",
+  "access_date": "2026-09-27",
+  "license": "CC BY 4.0",
+  "files": {
+    "siRNA_data.xlsx": {
+      "sha256": "6a2d01cdbc4d522ea783d164868266883f3cdb5ca1b267f4959ad224926bfd47"
+    },
+    "target gene sequence.fasta": {
+      "sha256": "37238b168a26045eb5fa00402ee4cf0a41e82e054df8554e4f031a4a448c5c67"
+    }
+  }
+}
